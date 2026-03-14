@@ -1,0 +1,16 @@
+
+
+
+![Veri Görselleştirme Analizi](Figure_1- data_visualization.png) 
+
+Konu: Biyoenformatik Pipeline Analiz Sonuçları Hakkında
+Sayın Profesör Kılıç,
+Hazırladığım biyoenformatik pipeline analizi tamamlanmış ve sonuçlar GitHub repoma yüklenmiştir. Ayrıca yaptığım çalışmaları ve elde ettiğim bulguları aşağıda kısaca özetledim:
+1. Nextflow ve Snakemake iş akışlarını kullanarak ham dizileme verilerinin kalite kontrol (QC) ve metrik hesaplama süreçlerini otomatize ettim. Pipeline; veri temizleme, okuma uzunluklarının analizi ve kalite skorlarının görselleştirilmesi adımlarını içermektedir.
+2. Grafiklerin yorumlanması için oluşturulan Figure_1 ve metrik sonuçlarına göre:
+Okuma Uzunlukları (Read Lengths): Beklediğimiz aralıkta (örneğin 150bp) yoğunlaşmaktadır. Bu durum, dizileme işleminin fiziksel olarak tutarlı gerçekleştiğini gösteriyor.
+Kalite Skorları (Base Quality): Skorların büyük çoğunluğu Q30 eşiğinin üzerinde yer almaktadır. Bu, verinin %99.9 doğruluk payına sahip olduğunu ve biyolojik analizler için yeterli güvenilirlikte olduğunu kanıtlamaktadır.
+3. Veri kalitesi oldukça yüksek göründüğü için bir sonraki aşama olan Hizalama (Alignment) ve ardından Varyant Analizi (Variant Calling) aşamalarına geçilmesini öneriyorum. Mevcut temizlenmiş veri, referans genoma yüksek doğrulukla haritalanmaya hazırdır.
+Konuyla ilgili detaylı dosyalara ve kod yapısına bu repo üzerinden ulaşabilirsiniz. Değerli görüşlerinizi bekler, iyi çalışmalar dilerim.
+Saygılarımla, Pınar Aslan
+
