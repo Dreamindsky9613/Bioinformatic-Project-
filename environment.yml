@@ -1,0 +1,13 @@
+name: longread_pipeline
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - nanoplot  # Long-read için özel QC aracı
+  - biopython # Custom script için gerekli
+  - pandas
+  - nextflow
+
+
